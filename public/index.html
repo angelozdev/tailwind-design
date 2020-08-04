@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="main.css" />
+      <link rel="stylesheet" href="style.css" />
+      <script
+         src="https://kit.fontawesome.com/e9837d6fe2.js"
+         crossorigin="anonymous"
+      ></script>
+      <title>Tailwind Page</title>
+   </head>
+   <body>
+      <!-- NAVBAR -->
+      <nav class="border text-gray-600 shadow-sm">
+         <div class="container mx-auto p-3">
+            <div class="flex justify-between w-full">
+               <div class="flex items-center">
+                  <div class="pr-4 border-r">
+                     <a href="#">
+                        <i class="fas fa-bars text-xl"></i>
+                     </a>
+                  </div>
+                  <div class="mx-4">
+                     <label class="cursor-pointer" for="search">
+                        <i class="fas fa-search"></i>
+                     </label>
+                     <input
+                        id="search"
+                        class="px-2 outline-none"
+                        type="text"
+                        placeholder="Search anything..."
+                        autofocus
+                     />
+                  </div>
+               </div>
+               <div class="flex items-center">
+                  <button
+                     class="focus:bg-orange-500 focus:outline-none bg-orange-400 py-2 px-4 text-white rounded-sm flex items-center"
+                     type="button"
+                  >
+                     <i class="fas fa-plus-square"></i>
+                     <span class="ml-2">Create New</span>
+                  </button>
+                  <ul class="flex text-xl">
+                     <li class="mx-4">
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                     </li>
+                     <li class="mx-4">
+                        <a href="#"><i class="far fa-calendar-check"></i></a>
+                     </li>
+                     <li class="mx-4">
+                        <a href="#"><i class="fas fa-inbox"></i></a>
+                     </li>
+                  </ul>
+                  <figure class="flex relative" id="user-avatar">
+                     <img
+                        class="rounded-full w-12"
+                        src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
+                        alt="avatar"
+                     />
+                  </figure>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+      <!-- CARDS NAV -->
+      <section class="py-2 text-gray-600 border">
+         <div class="container mx-auto px-2">
+            <div class="flex items-center justify-between">
+               <div class="flex items-baseline">
+                  <h4 class="font-semibold mr-2 text-xl">Cards</h4>
+                  <p class="text-gray-500">
+                     statics, charts, events and reports
+                  </p>
+               </div>
+
+               <div class="flex items-center">
+                  <p>Dashboard</p>
+                  <span class="mx-2">/</span>
+                  <p class="text-teal-400">Cards</p>
+                  <button
+                     class="focus:outline-none ml-4 text-orange-400 rounded-full py-1 px-3 border border-orange-400"
+                  >
+                     Buy Now
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Cards -->
+      <section class="container mx-auto px-2 my-4 text-gray-600 mb-16">
+         <h3 class="uppercase font-semibold mb-4">Blog Posts</h3>
+         <div class="grid grid-cols-3 gap-6">
+            <article class="shadow-md border">
+               <figure class="relative h-0" style="padding-bottom: 56.25%;">
+                  <img
+                     class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover"
+                     src="https://images.unsplash.com/photo-1559406041-c7d2b2e98690?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                     alt="image 1"
+                  />
+                  <button
+                     style="margin-bottom: -20px;"
+                     class="focus:outline-none ml-4 p-2 bg-orange-400 rounded-full text-white w-10 h-10 absolute bottom-0"
+                  >
+                     <i class="fas fa-share-alt"></i>
+                  </button>
+               </figure>
+               <div class="py-6 px-4 text-center">
+                  <small class="text-xs inline-block w-full mb-4">
+                     Posted in <a class="text-teal-400" href="#">Challenge</a>,
+                     <a class="text-teal-400" href="#">Flowers</a>
+                  </small>
+                  <p class="text-xl">
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </p>
+                  <button
+                     class="my-4 focus:outline-none ml-4 text-orange-400 rounded-full py-1 px-3 border border-orange-400"
+                  >
+                     Continue Reading
+                  </button>
+               </div>
+            </article>
+
+            <article class="shadow-md border">
+               <figure class="relative h-0" style="padding-bottom: 56.25%;">
+                  <img
+                     class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover"
+                     src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                     alt="image 1"
+                  />
+                  <button
+                     style="margin-bottom: -20px;"
+                     class="focus:outline-none ml-4 p-2 bg-orange-400 rounded-full text-white w-10 h-10 absolute bottom-0"
+                  >
+                     <i class="fas fa-share-alt"></i>
+                  </button>
+               </figure>
+               <div class="py-6 px-4 text-center">
+                  <small class="text-xs inline-block w-full mb-4">
+                     Posted in <a class="text-teal-400" href="#">Challenge</a>,
+                     <a class="text-teal-400" href="#">Flowers</a>
+                  </small>
+                  <p class="text-xl">
+                     Lorem ipsum dolor sit amet.
+                  </p>
+                  <button
+                     class="my-4 focus:outline-none ml-4 text-orange-400 rounded-full py-1 px-3 border border-orange-400"
+                  >
+                     Continue Reading
+                  </button>
+               </div>
+            </article>
+
+            <article class="shadow-md border">
+               <figure class="relative h-0" style="padding-bottom: 56.25%;">
+                  <img
+                     class="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover"
+                     src="https://images.unsplash.com/photo-1506956191951-7a88da4435e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
+                     alt="image 1"
+                  />
+                  <button
+                     style="margin-bottom: -20px;"
+                     class="focus:outline-none ml-4 p-2 bg-orange-400 rounded-full text-white w-10 h-10 absolute bottom-0"
+                  >
+                     <i class="fas fa-share-alt"></i>
+                  </button>
+               </figure>
+               <div class="py-6 px-4 text-center">
+                  <small class="text-xs inline-block w-full mb-4">
+                     Posted in <a class="text-teal-400" href="#">Challenge</a>,
+                     <a class="text-teal-400" href="#">Flowers</a>
+                  </small>
+                  <p class="text-xl">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     In, facilis?
+                  </p>
+                  <button
+                     class="my-4 focus:outline-none ml-4 text-orange-400 rounded-full py-1 px-3 border border-orange-400"
+                  >
+                     Continue Reading
+                  </button>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!-- Expandable Card -->
+      <section class="container mx-auto px-2 my-4 text-gray-600 mb-16">
+         <h3 class="uppercase font-semibold mb-4">Expandable cards</h3>
+         <div class="grid grid-cols-3 gap-6">
+            <article
+               class="shadow-md border bg-gray-800 text-white p-4 rounded-md"
+            >
+               <p class="font-semibold leading-none">Card Dark</p>
+               <small class="text-xs">Subtitle</small>
+            </article>
+            <article
+               class="shadow-md border bg-teal-400 text-white p-4 rounded-md"
+            >
+               <p class="font-semibold leading-none">Card Info</p>
+               <small class="text-xs">Subtitle</small>
+            </article>
+            <article class="shadow-md border bg-white p-4 rounded-md">
+               <p class="font-semibold leading-none">Card White</p>
+               <small class="text-xs">Subtitle</small>
+            </article>
+         </div>
+      </section>
+
+      <!-- Simple Cards -->
+      <section class="container mx-auto px-2 my-4 text-gray-600">
+         <h3 class="uppercase font-semibold mb-4">Expandable cards</h3>
+         <div class="grid grid-cols-3 gap-6">
+            <article class="shadow-md border bg-white p-4 rounded-md">
+               <h3 class="font-semibold mb-2">Card White</h3>
+               <p class="text-xs text-justify">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Veritatis tempora suscipit natus illum delectus eligendi
+                  ducimus blanditiis consectetur? Excepturi cumque veritatis
+                  nemo illum mollitia repellat necessitatibus nostrum unde
+                  officia voluptate?
+               </p>
+               <div class="text-teal-400 text-sm mt-4">
+                  <button class="uppercase">Card Link</button>
+                  <button class="uppercase ml-2">Another Link</button>
+               </div>
+            </article>
+            <article
+               class="shadow-md border bg-gray-700 text-white p-4 rounded-md"
+            >
+               <h3 class="font-semibold mb-2">Card White</h3>
+               <p class="text-xs text-justify">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis nihil repellat ad animi odit illum voluptatum
+                  perspiciatis impedit nemo debitis recusandae dolorum
+                  exercitationem, voluptatibus magni nobis beatae libero qui
+                  quae similique tenetur fuga asperiores odio!
+               </p>
+               <div class="text-sm mt-4">
+                  <button class="uppercase">Card Link</button>
+                  <button class="uppercase ml-2">Another Link</button>
+               </div>
+            </article>
+            <article
+               class="shadow-md border bg-green-500 text-white p-4 rounded-md"
+            >
+               <h3 class="font-semibold mb-2">Card White</h3>
+               <p class="text-xs text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia nostrum sit magnam nihil saepe sunt rem, vero illo
+                  eligendi, veritatis quisquam ducimus amet molestias ipsa, quod
+                  dignissimos corrupti possimus!
+               </p>
+               <div class="text-sm mt-4">
+                  <button class="uppercase">Card Link</button>
+                  <button class="uppercase ml-2">Another Link</button>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="border py-4 text-center text-gray-600">
+         2020 @angelozdev - Tailwindcss - PlatziMaster
+      </footer>
+   </body>
+</html>

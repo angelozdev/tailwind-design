@@ -1,0 +1,23 @@
+* {
+   box-sizing: border-box;
+}
+
+#user-avatar::before {
+   width: 1.4em;
+   height: 1.4em;
+   font-size: 1em;
+   line-height: 1.4;
+   position: absolute;
+   background: #64d5ca;
+   top: 50%;
+   margin-right: -0.7em;
+   margin-top: -0.7em;
+   right: 0;
+   font-family: "Font Awesome 5 Free";
+   font-weight: 900;
+   content: "\f078";
+   color: #fff;
+   border-radius: 50%;
+   text-align: center;
+   cursor: pointer;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "static-page-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server public/"
+  },
+  "keywords": [],
+  "author": "Angelo Zambrano <angelozam17@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "live-server": "^1.2.1",
+    "tailwindcss": "^1.6.2"
+  }
+}
