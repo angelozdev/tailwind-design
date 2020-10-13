@@ -34,7 +34,7 @@ _Technologies used in the frontend.:_
 
 
 ## Preview
-![./screenshot.png]
+![](./screenshot.png)
 
 ## License
 
