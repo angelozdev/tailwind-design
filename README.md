@@ -29,9 +29,12 @@ _You can see the project in production [Tailwind Project](https://angelozdev.git
 ## Built with
 
 _Technologies used in the frontend.:_
--  **[Tailwindcss](https://angelozdev.github.io/tailwind-design/public/)** Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+-  **[Tailwindcss](https://tailwindcss.com/)** Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
 - **[PostCSS](https://postcss.org/)** A tool for transforming CSS with JavaScript
 
+
+## Preview
+![./screenshot.png]
 
 ## License
 
