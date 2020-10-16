@@ -1,6 +1,6 @@
 # Tailwind Project
 
-_It is a static page where you use [Tailwindcss](https://tailwindcss.com/) for your layout._
+_It is a static page where [Tailwindcss](https://tailwindcss.com/) is used for its design._
 
 ## Starting
 
